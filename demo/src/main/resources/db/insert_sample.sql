@@ -1,0 +1,1 @@
+INSERT INTO FEATURE (FEAT_ID, EMAIL, FEAT_NAME, ACCESS) VALUES (HIBERNATE_SEQUENCE.nextval, 'sample1@hotmail.com', 'feature1', true);
