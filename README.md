@@ -6,7 +6,7 @@ Kindly checkout the **demo** folder as Maven Project, after that follow the belo
 
 ## Steps to launch the application
 1. Find com.example.demo.DemoApplication class and run as Java Application
-2. Currently the application is using server port : 8090 (This can be modified in application.properties)
+2. Currently the application is using server port : 8090 (The port can be modify in application.properties, do take note the access to link below please change to the modified port)
 3. Open the link http://localhost:8090/h2 to access the H2 database, the credential are as following (Note: password is empty)
    ![alt text](https://github.com/shiangyoung/moneylion/blob/main/images/h2_credential.jpg?raw=true)
 4. You shall see the database contain "FEATURE" table after login as following
@@ -14,7 +14,7 @@ Kindly checkout the **demo** folder as Maven Project, after that follow the belo
    
 ## Sample data
 1. If you need some sample data, you may go to demo/src/main/resources/db/insert_sample.sql. Copy whole content and paste to H2 to execute.
-2. After you run the query, it will give you the result of the execution such as below image
+2. After you run the query, it will give you the results of the execution such as below image
    ![alt text](https://github.com/shiangyoung/moneylion/blob/main/images/h2_execute.jpg?raw=true)
 3. In order to verify the sample data has been inserted, you may execute below query to verify the records
    ```
